@@ -15,7 +15,7 @@ services:
     working_dir: /app
     volumes:
       - .:/app
-    command: npm run start
+    command: sleep infinity
     networks:
       - app-net
   app-db:
